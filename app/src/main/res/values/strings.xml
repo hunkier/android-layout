@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">演示</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_linear_layout">LinearLayout 线性布局</string>
+    <string name="title_activity_relative_layout">RelativeLayout 相对布局</string>
+    <string name="title_activity_absolute_layout">AbsoluteLayout 绝对布局</string>
+    <string name="title_activity_table_layout">TableLayout 表格布局</string>
+    <string name="title_activity_frame_layout">FrameLayout 帧布局</string>
+    <string name="left_bottom">左下</string>
+    <string name="bottom">下</string>
+    <string name="top">上</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="right_top" >右上</string>
+    <string name="left_top">左上</string>
+    <string name="right_bottom">右下</string>
+</resources>

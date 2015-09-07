@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.hunk.demo.RelativeLayoutActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="居中"
+        android:id="@+id/center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top"
+        android:id="@+id/top"
+        android:layout_above="@+id/center"
+        android:layout_alignLeft="@+id/center"
+        android:layout_alignRight="@+id/center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom"
+        android:id="@+id/bottom"
+        android:layout_below="@+id/center"
+        android:layout_alignLeft="@+id/center"
+        android:layout_alignRight="@+id/center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/left"
+        android:id="@+id/left"
+        android:layout_toLeftOf="@+id/center"
+        android:layout_alignTop="@+id/center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/right"
+        android:id="@+id/right"
+        android:layout_toRightOf="@+id/center"
+        android:layout_alignTop="@+id/center"
+        android:layout_alignBottom="@+id/center"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/left_top"
+        android:id="@+id/left_top"
+        android:layout_toLeftOf="@+id/center"
+        android:layout_alignTop="@+id/top"
+        android:layout_alignLeft="@+id/left"
+        android:layout_alignBottom="@+id/top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/right_top"
+        android:id="@+id/right_top"
+        android:layout_above="@+id/center"
+        android:layout_toRightOf="@+id/center"
+        android:layout_alignTop="@+id/top"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/left_bottom"
+        android:id="@+id/left_bottom"
+        android:layout_below="@+id/center"
+        android:layout_toLeftOf="@+id/bottom"
+        android:layout_alignBottom="@+id/bottom"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/right_bottom"
+        android:id="@+id/right_bottom"
+        android:layout_below="@+id/center"
+        android:layout_toRightOf="@+id/bottom"
+        android:layout_alignBottom="@+id/bottom"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
