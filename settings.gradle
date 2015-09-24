@@ -1,1 +1,1 @@
-include ':app', ':autohide'
+include ':autohide', ':android-percent-layout', 'android-layout'

@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Demo1.iml" filepath="$PROJECT_DIR$/Demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-layout/android-layout.iml" filepath="$PROJECT_DIR$/android-layout/android-layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-percent-layout/android-percent-layout.iml" filepath="$PROJECT_DIR$/android-percent-layout/android-percent-layout.iml" />
       <module fileurl="file://$PROJECT_DIR$/autohide/autohide.iml" filepath="$PROJECT_DIR$/autohide/autohide.iml" />
     </modules>
   </component>

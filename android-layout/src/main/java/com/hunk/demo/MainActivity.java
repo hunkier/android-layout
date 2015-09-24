@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 new Item(R.string.title_activity_relative_layout,RelativeLayoutActivity.class),
                 new Item(R.string.title_activity_absolute_layout,AbsoluteLayoutActivity.class),
                 new Item(R.string.title_activity_table_layout,TableLayoutActivity.class),
-                new Item(R.string.title_activity_frame_layout,TableLayoutActivity.class)
+                new Item(R.string.title_activity_frame_layout,FrameLayoutActivity.class)
         };
     }
 
